@@ -210,6 +210,20 @@
     color: #FFFFFF;
 }
 
+.sub-header-lock {
+    position: absolute;
+    width: 476px;
+    height: 29px;
+    left: 58px;
+    top: 35px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 29px;
+    color: #858585;
+}
+
 .line1 {
     width: 765px;
     font-family: 'Arial';
@@ -231,6 +245,27 @@
     color: #FFFFFF;
 }
 
+.line1-lock {
+    width: 765px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 29px;
+    color: #858585;
+}
+
+.line2-lock {
+    width: 707px;
+    margin-top: 11px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #858585;
+}
+
 .info-container {
     position: absolute;
     display: flex;
@@ -246,6 +281,15 @@
     border-radius: 20px;
     text-align: center;
     color: #FFFFFF;
+}
+
+.author-lock {
+    width: 154px;
+    height: 22px;
+    background: linear-gradient(85.93deg, rgba(242, 25, 177, 0.5) 1.89%, rgba(4, 220, 243, 0.5) 104.06%);
+    border-radius: 20px;
+    text-align: center;
+    color: #858585;
 }
 
 .lessons-wrap {
@@ -264,6 +308,14 @@
     border-radius: 20px;
     text-align: center;
     color: #FFFFFF;
+}
+
+.lessons-lock {
+    box-sizing: border-box;
+    background: #273367;
+    border-radius: 20px;
+    text-align: center;
+    color: #858585;
 }
 
 .event-windows-container {
@@ -846,4 +898,58 @@
 .button-panel-container {
     position: absolute;
     right: 10px;
+}
+
+.menu-profile:hover {
+    cursor: pointer;
+    opacity: 0.5;
+    transition: 200ms;
+}
+
+.menu-notification:hover {
+    cursor: pointer;
+    opacity: 0.5;
+    transition: 200ms;
+}
+
+.menu-site:hover {
+    cursor: pointer;
+    opacity: 0.5;
+    transition: 200ms;
+}
+
+.menu-education:hover {
+    cursor: pointer;
+    opacity: 0.5;
+    transition: 200ms;
+}
+
+.menu-users:hover {
+    cursor: pointer;
+    opacity: 0.5;
+    transition: 200ms;
+}
+
+.menu-tasks:hover {
+    cursor: pointer;
+    opacity: 0.5;
+    transition: 200ms;
+}
+
+.menu-messages:hover {
+    cursor: pointer;
+    opacity: 0.5;
+    transition: 200ms;
+}
+
+.menu-sales:hover {
+    cursor: pointer;
+    opacity: 0.5;
+    transition: 200ms;
+}
+
+.menu-chat:hover {
+    cursor: pointer;
+    opacity: 0.5;
+    transition: 200ms;
 }
